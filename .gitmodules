@@ -4,3 +4,6 @@
 [submodule ".vim/pack/core/start/vim-commentary"]
 	path = .vim/pack/core/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule ".vim/pack/core/start/vim-pencil"]
+	path = .vim/pack/core/start/vim-pencil
+	url = git@github.com:reedes/vim-pencil.git
