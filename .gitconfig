@@ -1,0 +1,34 @@
+[user]
+        name = Andrew Wagner
+        email = ahwagner@outlook.com
+[alias]
+        # diff-head produces the patch diff between the current HEAD
+        # and its nearest parent.
+        diff-head = diff HEAD^..HEAD
+
+        # graph produces a simple, one-line graph log.
+        graph = log --graph  --oneline
+
+        # ls-shunned produces the list of files which are currently
+        # marked as "assume-unchanged."
+        ls-shunned = !git ls-files -v | grep "^[[:lower:]]"
+
+        # mergef consumes a branch name and merges that branch
+        # into the current branch without a fast-forward. This
+        # forces the creation of a merge commit.
+        mergef = merge --no-ff
+
+        # rstatus ("remote status") fetches the latest remote
+        # state and produces the relative status.
+        rstatus = !git fetch && git status
+
+        # shun consumes a file and marks that file as
+        # "assume-unchanged."
+        shun = update-index --assume-unchanged
+
+        # shun consumes a file and marks that file as
+        # "assume-unchanged"
+        unshun = update-index --no-assume-unchanged
+
+	# submod-upgrade upgrades all submodules in repo
+	submod-upgrade = submodule foreach git pull origin master
