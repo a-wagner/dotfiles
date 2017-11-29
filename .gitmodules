@@ -1,3 +1,6 @@
 [submodule ".vim/pack/core/start/ale"]
 	path = .vim/pack/core/start/ale
 	url = git@github.com:w0rp/ale.git
+[submodule ".vim/pack/core/start/vim-commentary"]
+	path = .vim/pack/core/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
