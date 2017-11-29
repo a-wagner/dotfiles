@@ -30,6 +30,7 @@ brew install vim --with-override-system-vi
 
 # install other essentials
 brew install direnv
+brew install mosh
 brew install node
 brew install python3
 brew install tmux
