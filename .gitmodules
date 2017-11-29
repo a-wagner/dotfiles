@@ -7,3 +7,6 @@
 [submodule ".vim/pack/core/start/vim-pencil"]
 	path = .vim/pack/core/start/vim-pencil
 	url = git@github.com:reedes/vim-pencil.git
+[submodule ".vim/pack/core/start/vim-sensible"]
+	path = .vim/pack/core/start/vim-sensible
+	url = git@github.com:tpope/vim-sensible.git
