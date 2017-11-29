@@ -32,4 +32,5 @@ brew install vim --with-override-system-vi
 brew install direnv
 brew install node
 brew install python3
+brew install tmux
 brew install yarn
