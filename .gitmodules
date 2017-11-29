@@ -10,3 +10,6 @@
 [submodule ".vim/pack/core/start/vim-sensible"]
 	path = .vim/pack/core/start/vim-sensible
 	url = git@github.com:tpope/vim-sensible.git
+[submodule ".vim/pack/core/start/vim-surround"]
+	path = .vim/pack/core/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
