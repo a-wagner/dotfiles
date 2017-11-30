@@ -1,4 +1,4 @@
 PS1="\u @ \w $ ";
-PATH=$PATH;
+PATH=/usr/local/bin:$PATH;
 
 eval "$(direnv hook bash)"
