@@ -1,5 +1,5 @@
-PS1="\u @ \w $ ";
-PATH=/usr/local/bin:$PATH;
+export PS1="\u @ \w $ "
+export PATH=/usr/local/bin:$PATH
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home"
